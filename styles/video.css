@@ -97,7 +97,7 @@
   margin-bottom: 6px;
 }
 
-/*
+/* safe copy so that i can make this yt clone responsive
 .video-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
