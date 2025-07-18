@@ -1,0 +1,13 @@
+body {
+  font-family: arial; /* to be inherrited by all children*/
+  margin: 0;
+  padding-top: 80px;
+  padding-left: 96px;
+  padding-right: 24px;
+  background-color: rgb(240, 240, 240);
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
