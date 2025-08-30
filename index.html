@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Clone 2</title>
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img src="icons/header/hamburger-menu.svg" class="hamburger-menu" />
+        <img src="icons/header/youtube-logo.svg" class="youtube-logo" />
+      </div>
+
+      <div class="middle-section">
+        <input type="text" placeholder="Search..." class="search-bar" />
+        <div class="search-btn">
+          <img src="icons/header/search.svg" class="search-icon" />
+          <div class="tool-tip">Search</div>
+        </div>
+        <button class="voice-search-btn">
+          <img
+            src="icons/header/voice-search-icon.svg"
+            class="voice-search-icon"
+          />
+          <div class="tool-tip">Search with your voice</div>
+        </button>
+      </div>
+
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img src="icons/header/upload.svg" class="upload-icon" />
+          <div class="tool-tip">Create</div>
+        </div>
+
+        <div class="youtube-apps-container">
+          <img src="icons/header/youtube-apps.svg" class="youtube-apps-icon" />
+          <div class="tool-tip">Apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img
+            src="icons/header/notifications.svg"
+            class="notifications-icon"
+          />
+          <div class="notifications-count">3</div>
+          <div class="tool-tip">Notifications</div>
+        </div>
+
+        <img src="user/tex4.jpg" class="current-user-picture" />
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/sidebar/home.svg" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/sidebar/explore.svg" />
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/sidebar/subscriptions.svg" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/sidebar/originals.svg" />
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/sidebar/youtube-music.svg" />
+        <div>Youtube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/sidebar/library.svg" />
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img src="thumbnails/bruschetta-50.webp" class="thumbnail" />
+            <div class="video-time">00:00</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="image-container">
+                <img class="profile-picture" src="channel-pictures/grad1.jpg" />
+                <div class="channel-tooltip">
+                  <img src="channel-pictures/grad1.jpg" />
+                  <div class="tooltip-info">
+                    <p class="tooltip-title">Youtube Channel</p>
+                    <p class="tooltip-stats">100M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <div class="video-title-container">
+                <p class="video-title">
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <div class="dots-container">
+                  <img src="icons/header/hamburger-menu.svg" />
+                </div>
+              </div>
+              <p class="video-author">Youtube Channel</p>
+              <p class="video-stats">0M views &#183; 0 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img src="thumbnails/greek-salad-50.webp" class="thumbnail" />
+            <div class="video-time">00:00</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="image-container">
+                <img class="profile-picture" src="channel-pictures/grad2.jpg" />
+                <div class="channel-tooltip">
+                  <img src="channel-pictures/grad2.jpg" />
+                  <div class="tooltip-info">
+                    <p class="tooltip-title">Youtube Channel</p>
+                    <p class="tooltip-stats">100M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="video-info">
+              <div class="video-title-container">
+                <p class="video-title">
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <div class="dots-container">
+                  <img src="icons/header/hamburger-menu.svg" />
+                </div>
+              </div>
+              <p class="video-author">Youtube Channel</p>
+              <p class="video-stats">0M views &#183; 0 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img src="thumbnails/Mario-and-Adrian-A.webp" class="thumbnail" />
+            <div class="video-time">00:00</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="image-container">
+                <img class="profile-picture" src="channel-pictures/grad3.jpg" />
+                <div class="channel-tooltip">
+                  <img src="channel-pictures/grad3.jpg" />
+                  <div class="tooltip-info">
+                    <p class="tooltip-title">Youtube Channel</p>
+                    <p class="tooltip-stats">100M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <div class="video-title-container">
+                <p class="video-title">
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <div class="dots-container">
+                  <img src="icons/header/hamburger-menu.svg" />
+                </div>
+              </div>
+              <p class="video-author">Youtube Channel</p>
+              <p class="video-stats">0M views &#183; 0 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img src="thumbnails/Mario-and-Adrian-B.webp" class="thumbnail" />
+            <div class="video-time">00:00</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="image-container">
+                <img class="profile-picture" src="channel-pictures/grad4.jpg" />
+                <div class="channel-tooltip">
+                  <img src="channel-pictures/grad4.jpg" />
+                  <div class="tooltip-info">
+                    <p class="tooltip-title">Youtube Channel</p>
+                    <p class="tooltip-stats">100M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <div class="video-title-container">
+                <p class="video-title">
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <div class="dots-container">
+                  <img src="icons/header/hamburger-menu.svg" />
+                </div>
+              </div>
+              <p class="video-author">Youtube Channel</p>
+              <p class="video-stats">0M views &#183; 0 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img src="thumbnails/restaurant-chef-B.webp" class="thumbnail" />
+            <div class="video-time">00:00</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="image-container">
+                <img class="profile-picture" src="channel-pictures/grad5.jpg" />
+                <div class="channel-tooltip">
+                  <img src="channel-pictures/grad5.jpg" />
+                  <div class="tooltip-info">
+                    <p class="tooltip-title">Youtube Channel</p>
+                    <p class="tooltip-stats">100M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <div class="video-title-container">
+                <p class="video-title">
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <div class="dots-container">
+                  <img src="icons/header/hamburger-menu.svg" />
+                </div>
+              </div>
+              <p class="video-author">Youtube Channel</p>
+              <p class="video-stats">0M views &#183; 0 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img src="thumbnails/restaurant.webp" class="thumbnail" />
+            <div class="video-time">00:00</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="image-container">
+                <img class="profile-picture" src="channel-pictures/grad6.jpg" />
+                <div class="channel-tooltip">
+                  <img src="channel-pictures/grad6.jpg" />
+                  <div class="tooltip-info">
+                    <p class="tooltip-title">Youtube Channel</p>
+                    <p class="tooltip-stats">100M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <div class="video-title-container">
+                <p class="video-title">
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <div class="dots-container">
+                  <img src="icons/header/hamburger-menu.svg" />
+                </div>
+              </div>
+              <p class="video-author">Youtube Channel</p>
+              <p class="video-stats">0M views &#183; 0 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img src="thumbnails/bruschetta-50.webp" class="thumbnail" />
+            <div class="video-time">00:00</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="image-container">
+                <img class="profile-picture" src="channel-pictures/grad1.jpg" />
+                <div class="channel-tooltip">
+                  <img src="channel-pictures/grad1.jpg" />
+                  <div class="tooltip-info">
+                    <p class="tooltip-title">Youtube Channel</p>
+                    <p class="tooltip-stats">100M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <div class="video-title-container">
+                <p class="video-title">
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <div class="dots-container">
+                  <img src="icons/header/hamburger-menu.svg" />
+                </div>
+              </div>
+              <p class="video-author">Youtube Channel</p>
+              <p class="video-stats">0M views &#183; 0 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img src="thumbnails/greek-salad-50.webp" class="thumbnail" />
+            <div class="video-time">00:00</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="image-container">
+                <img class="profile-picture" src="channel-pictures/grad2.jpg" />
+                <div class="channel-tooltip">
+                  <img src="channel-pictures/grad2.jpg" />
+                  <div class="tooltip-info">
+                    <p class="tooltip-title">Youtube Channel</p>
+                    <p class="tooltip-stats">100M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="video-info">
+              <div class="video-title-container">
+                <p class="video-title">
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <div class="dots-container">
+                  <img src="icons/header/hamburger-menu.svg" />
+                </div>
+              </div>
+              <p class="video-author">Youtube Channel</p>
+              <p class="video-stats">0M views &#183; 0 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img src="thumbnails/Mario-and-Adrian-A.webp" class="thumbnail" />
+            <div class="video-time">00:00</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="image-container">
+                <img class="profile-picture" src="channel-pictures/grad3.jpg" />
+                <div class="channel-tooltip">
+                  <img src="channel-pictures/grad3.jpg" />
+                  <div class="tooltip-info">
+                    <p class="tooltip-title">Youtube Channel</p>
+                    <p class="tooltip-stats">100M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <div class="video-title-container">
+                <p class="video-title">
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <div class="dots-container">
+                  <img src="icons/header/hamburger-menu.svg" />
+                </div>
+              </div>
+              <p class="video-author">Youtube Channel</p>
+              <p class="video-stats">0M views &#183; 0 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img src="thumbnails/Mario-and-Adrian-B.webp" class="thumbnail" />
+            <div class="video-time">00:00</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="image-container">
+                <img class="profile-picture" src="channel-pictures/grad4.jpg" />
+                <div class="channel-tooltip">
+                  <img src="channel-pictures/grad4.jpg" />
+                  <div class="tooltip-info">
+                    <p class="tooltip-title">Youtube Channel</p>
+                    <p class="tooltip-stats">100M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <div class="video-title-container">
+                <p class="video-title">
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <div class="dots-container">
+                  <img src="icons/header/hamburger-menu.svg" />
+                </div>
+              </div>
+              <p class="video-author">Youtube Channel</p>
+              <p class="video-stats">0M views &#183; 0 years ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img src="thumbnails/restaurant-chef-B.webp" class="thumbnail" />
+            <div class="video-time">00:00</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="image-container">
+                <img class="profile-picture" src="channel-pictures/grad5.jpg" />
+                <div class="channel-tooltip">
+                  <img src="channel-pictures/grad5.jpg" />
+                  <div class="tooltip-info">
+                    <p class="tooltip-title">Youtube Channel</p>
+                    <p class="tooltip-stats">100M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <div class="video-title-container">
+                <p class="video-title">
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <div class="dots-container">
+                  <img src="icons/header/hamburger-menu.svg" />
+                </div>
+              </div>
+              <p class="video-author">Youtube Channel</p>
+              <p class="video-stats">0M views &#183; 0 months ago</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <img src="thumbnails/restaurant.webp" class="thumbnail" />
+            <div class="video-time">00:00</div>
+          </div>
+
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <div class="image-container">
+                <img class="profile-picture" src="channel-pictures/grad6.jpg" />
+                <div class="channel-tooltip">
+                  <img src="channel-pictures/grad6.jpg" />
+                  <div class="tooltip-info">
+                    <p class="tooltip-title">Youtube Channel</p>
+                    <p class="tooltip-stats">100M subscribers</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="video-info">
+              <div class="video-title-container">
+                <p class="video-title">
+                  Lorem ipsum dolor sit amet consectetur.
+                </p>
+                <div class="dots-container">
+                  <img src="icons/header/hamburger-menu.svg" />
+                </div>
+              </div>
+              <p class="video-author">Youtube Channel</p>
+              <p class="video-stats">0M views &#183; 0 years ago</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

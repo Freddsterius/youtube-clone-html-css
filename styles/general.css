@@ -1,0 +1,14 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 5.5rem 1.2rem 2rem 7.2rem;
+  background-color: rgb(238, 238, 238);
+  font-family: cursive, Cambria, Cochin, Georgia, Times, "Times New Roman",
+    serif;
+}
